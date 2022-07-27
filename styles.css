@@ -55,16 +55,18 @@ select {
 }
 textarea,
 button {
-  margin-top: 15px;
+  margin-top: 20px;
   border-radius: 5px;
 }
 form button {
   align-self: center;
   padding: 10px 15px 10px 15px;
-  background-color: #009900;
+  background-color: #c0c0c0;
   font-size: 18px;
   width: 100%;
   max-width: 150px;
+  cursor: pointer;
+  border: 2px solid rgb(141, 5, 5);
 }
 .radio-container {
   display: flex;
