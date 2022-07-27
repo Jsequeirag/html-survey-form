@@ -41,6 +41,7 @@ form {
   padding: 30px;
   border-radius: 15px;
 }
+
 label {
   margin-top: 15px;
 }
@@ -63,10 +64,16 @@ form button {
   padding: 10px 15px 10px 15px;
   background-color: #c0c0c0;
   font-size: 18px;
+  font-weight: 600;
   width: 100%;
   max-width: 150px;
   cursor: pointer;
   border: 2px solid rgb(141, 5, 5);
+}
+form button:hover {
+  transform: scale(1.1);
+  background-color: rgb(141, 5, 5);
+  color: white;
 }
 .radio-container {
   display: flex;
