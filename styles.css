@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+body {
+  font-family: "Roboto Mono", monospace;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg?q=50&fit=contain&w=1500&h=750&dpr=1.5");
+  background-position: center;
+  background-repeat: no repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+#description {
+  font-size: 20px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(3px);
+  min-height: 100vh;
+  padding: 20px;
+}
+
+form {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 700px;
+  min-width: 300px;
+  background-color: #000033;
+  opacity: 0.9;
+  padding: 30px;
+  border-radius: 15px;
+}
+label {
+  margin-top: 15px;
+}
+
+input,
+select {
+  margin-top: 5px;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+textarea,
+button {
+  margin-top: 15px;
+  border-radius: 5px;
+}
+form button {
+  align-self: center;
+  padding: 10px 15px 10px 15px;
+  background-color: #009900;
+  font-size: 18px;
+  width: 100%;
+  max-width: 150px;
+}
+.radio-container {
+  display: flex;
+  flex-direction: row;
+}
+.check-container {
+  display: flex;
+  flex-direction: row;
+}
+.radio-container input,
+label {
+  margin: 15px 5px 0px 5px;
+}
+.check-container input,
+label {
+  margin: 15px 5px 0px 5px;
+}
