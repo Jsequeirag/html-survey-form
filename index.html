@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link href="./styles.css"
+</head>
+<body>
+
+
+<div class="main">
+<h1 id="title"> Survey Form</h1>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+<form id="survey-form">
+  <label id="name-label">Name</label>
+  <input placeholder="Enter your name" id="name" type="text" required/>  
+ 
+ <label id="email-label">Email</label>
+  <input placeholder="Enter your email" id="email" required type="email">
+  
+  <label  id="number-label">Number</label> 
+  <input placeholder="Enter your age" id="number" max="1" min="100" type="number">   
+   <label>Which option best describes your current role?</label>
+   <select id="dropdown">
+   <option>Student</option>
+   <option>Full time job </option>  
+      <option>Full time leader </option> 
+         <option>Prefer not to say </option
+      <option>Other </option>  
+   </select>
+   <label>Would you recommend freeCodeCamp to a friend?</label>
+<div class="radio-container">
+ 
+   <input type="radio" name="radio-g" value="definitely"/>
+  <label>Definitely</label>
+ </div>
+ <div class="radio-container">
+  <input type="radio" name="radio-g" value="Maybe"/>
+  <label>Definitely</label>
+</div>
+ <label>What would you like to see improved? <span>(Check all that apply)</span></label>
+<div class="check-container">
+    <input type="checkbox" name="check-g" value="definitely"/>
+    <label>Definitely</label> 
+</div>
+  <div class="check-container">
+    <input type="checkbox" name="check-g"       value="Maybe"/>
+    <label>Maybe</label>
+  </div>
+ <label  id="number-label">Any comments or suggestions</label> 
+  <textarea > </textarea>  
+  <button id="submit" type="submit">Submit</button>
+
+</form>
+</div>
+</body>
+</html>
+
+
